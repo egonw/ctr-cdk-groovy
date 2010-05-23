@@ -7,6 +7,18 @@ done in the various cheminformatics toolkits.
 
 This Git repository holds the [CDK](http://cdk.sf.net/) solution written in [Groovy](http://groovy.codehaus.org/).
 
+How to run a solution
+---------------------
+
+Linux commands:
+
+$ cd lib/
+$ wget http://heanet.dl.sourceforge.net/project/cdk/cdk/1.2.5/cdk-1.2.5.jar
+$ ln -s cdk-1.2.5.jar cdk.jar
+$ cd ..
+$ export CLASSPATH=lib/cdk.jar
+$ groovy canonicalSMILES/solution.groovy
+
 License
 -------
 
